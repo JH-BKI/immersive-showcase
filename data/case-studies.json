@@ -1,0 +1,480 @@
+{
+  "version": 1,
+  "updated": "",
+  "filters": {
+    "types": [
+      {
+        "id": "vr",
+        "label": "VR"
+      },
+      {
+        "id": "360",
+        "label": "360°"
+      },
+      {
+        "id": "ar",
+        "label": "AR"
+      },
+      {
+        "id": "mr",
+        "label": "MR"
+      },
+      {
+        "id": "web",
+        "label": "Web"
+      },
+      {
+        "id": "app",
+        "label": "App"
+      }
+    ],
+    "industries": [
+      {
+        "id": "education",
+        "label": "Education"
+      },
+      {
+        "id": "healthcare",
+        "label": "Healthcare"
+      },
+      {
+        "id": "government",
+        "label": "Government"
+      },
+      {
+        "id": "sports",
+        "label": "Sports"
+      },
+      {
+        "id": "for-purpose",
+        "label": "For Purpose"
+      }
+    ]
+  },
+  "caseStudies": [
+    {
+      "id": "case-01",
+      "order": 1,
+      "published": false,
+      "spotlight": true,
+      "title": "",
+      "client": "",
+      "industry": "",
+      "types": [],
+      "duration": "",
+      "summary": "",
+      "challenge": "",
+      "approach": "",
+      "outcome": "",
+      "card": {
+        "image": "",
+        "alt": ""
+      },
+      "experience": {
+        "type": "iframe",
+        "label": "",
+        "src": "",
+        "poster": "",
+        "headsetLabel": "",
+        "note": ""
+      },
+      "assets": [
+        {
+          "type": "image",
+          "src": "",
+          "thumb": "",
+          "poster": "",
+          "caption": "",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "",
+          "thumb": "",
+          "poster": "",
+          "caption": "",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "",
+          "thumb": "",
+          "poster": "",
+          "caption": "",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "id": "case-02",
+      "order": 2,
+      "published": false,
+      "spotlight": false,
+      "title": "",
+      "client": "",
+      "industry": "",
+      "types": [],
+      "duration": "",
+      "summary": "",
+      "challenge": "",
+      "approach": "",
+      "outcome": "",
+      "card": {
+        "image": "",
+        "alt": ""
+      },
+      "experience": {
+        "type": "iframe",
+        "label": "",
+        "src": "",
+        "poster": "",
+        "headsetLabel": "",
+        "note": ""
+      },
+      "assets": [
+        {
+          "type": "image",
+          "src": "",
+          "thumb": "",
+          "poster": "",
+          "caption": "",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "",
+          "thumb": "",
+          "poster": "",
+          "caption": "",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "",
+          "thumb": "",
+          "poster": "",
+          "caption": "",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "id": "case-03",
+      "order": 3,
+      "published": false,
+      "spotlight": false,
+      "title": "",
+      "client": "",
+      "industry": "",
+      "types": [],
+      "duration": "",
+      "summary": "",
+      "challenge": "",
+      "approach": "",
+      "outcome": "",
+      "card": {
+        "image": "",
+        "alt": ""
+      },
+      "experience": {
+        "type": "iframe",
+        "label": "",
+        "src": "",
+        "poster": "",
+        "headsetLabel": "",
+        "note": ""
+      },
+      "assets": [
+        {
+          "type": "image",
+          "src": "",
+          "thumb": "",
+          "poster": "",
+          "caption": "",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "",
+          "thumb": "",
+          "poster": "",
+          "caption": "",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "",
+          "thumb": "",
+          "poster": "",
+          "caption": "",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "id": "case-04",
+      "order": 4,
+      "published": false,
+      "spotlight": false,
+      "title": "",
+      "client": "",
+      "industry": "",
+      "types": [],
+      "duration": "",
+      "summary": "",
+      "challenge": "",
+      "approach": "",
+      "outcome": "",
+      "card": {
+        "image": "",
+        "alt": ""
+      },
+      "experience": {
+        "type": "iframe",
+        "label": "",
+        "src": "",
+        "poster": "",
+        "headsetLabel": "",
+        "note": ""
+      },
+      "assets": [
+        {
+          "type": "image",
+          "src": "",
+          "thumb": "",
+          "poster": "",
+          "caption": "",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "",
+          "thumb": "",
+          "poster": "",
+          "caption": "",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "",
+          "thumb": "",
+          "poster": "",
+          "caption": "",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "id": "case-05",
+      "order": 5,
+      "published": false,
+      "spotlight": false,
+      "title": "",
+      "client": "",
+      "industry": "",
+      "types": [],
+      "duration": "",
+      "summary": "",
+      "challenge": "",
+      "approach": "",
+      "outcome": "",
+      "card": {
+        "image": "",
+        "alt": ""
+      },
+      "experience": {
+        "type": "iframe",
+        "label": "",
+        "src": "",
+        "poster": "",
+        "headsetLabel": "",
+        "note": ""
+      },
+      "assets": [
+        {
+          "type": "image",
+          "src": "",
+          "thumb": "",
+          "poster": "",
+          "caption": "",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "",
+          "thumb": "",
+          "poster": "",
+          "caption": "",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "",
+          "thumb": "",
+          "poster": "",
+          "caption": "",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "id": "case-06",
+      "order": 6,
+      "published": false,
+      "spotlight": false,
+      "title": "",
+      "client": "",
+      "industry": "",
+      "types": [],
+      "duration": "",
+      "summary": "",
+      "challenge": "",
+      "approach": "",
+      "outcome": "",
+      "card": {
+        "image": "",
+        "alt": ""
+      },
+      "experience": {
+        "type": "iframe",
+        "label": "",
+        "src": "",
+        "poster": "",
+        "headsetLabel": "",
+        "note": ""
+      },
+      "assets": [
+        {
+          "type": "image",
+          "src": "",
+          "thumb": "",
+          "poster": "",
+          "caption": "",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "",
+          "thumb": "",
+          "poster": "",
+          "caption": "",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "",
+          "thumb": "",
+          "poster": "",
+          "caption": "",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "id": "case-07",
+      "order": 7,
+      "published": false,
+      "spotlight": false,
+      "title": "",
+      "client": "",
+      "industry": "",
+      "types": [],
+      "duration": "",
+      "summary": "",
+      "challenge": "",
+      "approach": "",
+      "outcome": "",
+      "card": {
+        "image": "",
+        "alt": ""
+      },
+      "experience": {
+        "type": "iframe",
+        "label": "",
+        "src": "",
+        "poster": "",
+        "headsetLabel": "",
+        "note": ""
+      },
+      "assets": [
+        {
+          "type": "image",
+          "src": "",
+          "thumb": "",
+          "poster": "",
+          "caption": "",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "",
+          "thumb": "",
+          "poster": "",
+          "caption": "",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "",
+          "thumb": "",
+          "poster": "",
+          "caption": "",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "id": "case-08",
+      "order": 8,
+      "published": false,
+      "spotlight": false,
+      "title": "",
+      "client": "",
+      "industry": "",
+      "types": [],
+      "duration": "",
+      "summary": "",
+      "challenge": "",
+      "approach": "",
+      "outcome": "",
+      "card": {
+        "image": "",
+        "alt": ""
+      },
+      "experience": {
+        "type": "iframe",
+        "label": "",
+        "src": "",
+        "poster": "",
+        "headsetLabel": "",
+        "note": ""
+      },
+      "assets": [
+        {
+          "type": "image",
+          "src": "",
+          "thumb": "",
+          "poster": "",
+          "caption": "",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "",
+          "thumb": "",
+          "poster": "",
+          "caption": "",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "",
+          "thumb": "",
+          "poster": "",
+          "caption": "",
+          "alt": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Immersive Learning | eWorks</title>
+  <meta name="description" content="Immersive learning by eWorks: VR, AR, 360° and WebXR experiences designed by the team that builds your eLearning. Explore our case studies and try the experiences.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Stand-in for Garnett while reviewing. Remove once the Garnett files are in /fonts (see css/styles.css). -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="module" src="js/main.js"></script>
+  <!-- lets CSS hide reveal blocks only when JS will show them again -->
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="top">
+    <div class="wrap site-header__inner">
+      <a class="logo" href="https://www.eworks.edu.au/" aria-label="eWorks home">
+        <span class="logo__word">eWorks</span><span class="logo__bar" aria-hidden="true"></span>
+      </a>
+      <span class="site-header__label"><span class="site-header__rule" aria-hidden="true"></span>Immersive Learning showcase</span>
+      <a class="site-header__link" href="https://www.eworks.edu.au/">eworks.edu.au <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero__inner" data-reveal>
+        <div class="hero__copy">
+          <p class="eyebrow eyebrow--dark"><span class="no-caps">eWorks x</span> Immersive Learning</p>
+          <h1 class="h1" id="hero-title">Immersive learning that puts learners in the moment<span class="cursor" aria-hidden="true"></span></h1>
+          <p class="lead">Interactive and immersive scenarios, simulation and experiences designed by the same team that builds your eLearning, available for learner via the LMS.</p>
+        </div>
+      </div>
+      <div class="hero__media" data-reveal>
+        <div class="hero__tile" aria-hidden="true"></div>
+        <div class="hero__slides" data-slideshow aria-roledescription="carousel" aria-label="Immersive learning in use">
+          <figure class="hero__slide is-active" data-slide>
+            <img class="media" src="assets/hero/hero-1.jpg" alt="" data-placeholder><!-- 1400×1000, subject right of centre; add alt text -->
+          </figure>
+          <figure class="hero__slide" data-slide>
+            <img class="media" src="assets/hero/hero-2.jpg" alt="" loading="lazy" data-placeholder><!-- 1400×1000, subject right of centre; add alt text -->
+          </figure>
+          <figure class="hero__slide" data-slide>
+            <img class="media" src="assets/hero/hero-3.jpg" alt="" loading="lazy" data-placeholder><!-- 1400×1000, subject right of centre; add alt text -->
+          </figure>
+          <figure class="hero__slide" data-slide>
+            <img class="media" src="assets/hero/hero-4.jpg" alt="" loading="lazy" data-placeholder><!-- 1400×1000, subject right of centre; add alt text -->
+          </figure>
+          <div class="hero__dots" role="group" aria-label="Choose slide" data-slide-dots></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ INTRO ============ -->
+    <section class="section intro" id="what" aria-labelledby="what-title">
+      <div class="wrap">
+        <div class="media-row" data-reveal>
+          <div class="media-row__text">
+            <p class="eyebrow">Enhancing the way we learn</p>
+            <h2 class="h2" id="what-title">What is immersive learning?</h2>
+            <p class="body">Immersive learning surrounds the learner with a realistic environment they can move through and act in. Instead of reading about a procedure, the learner can now carry it out, explore the scenario and safely make mistakes and see what happens.</p>
+            <p class="body">It works best for skills that are physical, risky, expensive to practise, or tied to a specific place.</p>
+            <nav class="btn-row" aria-label="Jump to section">
+              <a class="btn btn--primary" href="#formats">How we do it</a>
+              <a class="btn btn--primary" href="#process">How we build it</a>
+              <a class="btn btn--primary" href="#webxr">How learners use it</a>
+              <a class="btn btn--primary" href="#case-studies">Case studies</a>
+            </nav>
+          </div>
+          <div class="media-row__media video-frame">
+            <!-- MEDIA SLOT · showreel · 16:9. Keep ONE element. -->
+            <video class="media" controls playsinline preload="none" poster="assets/showreel-poster.jpg" aria-label="eWorks immersive learning showreel">
+              <source src="assets/showreel.mp4" type="video/mp4">
+              <!-- <track kind="captions" src="assets/showreel.vtt" srclang="en" label="English" default> -->
+            </video>
+            <!-- <iframe class="media" src="" title="eWorks immersive learning showreel" loading="lazy" allow="fullscreen; autoplay" allowfullscreen></iframe> -->
+            <!-- <img class="media" src="assets/showreel-poster.jpg" alt="" data-placeholder> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- FORMATS: scrollytelling, on a lightest-grey band ---------- -->
+    <section class="section formats-band" aria-labelledby="formats-title">
+      <div class="wrap">
+        <div class="formats" id="formats">
+          <div class="formats__head" data-reveal>
+            <h2 class="h2" id="formats-title">Our immersive content offerings</h2>
+            <p class="body">Scroll through each format and try a live example alongside it.</p>
+          </div>
+          <div class="formats__grid" data-reveal>
+            <div class="formats__stage-col">
+              <div class="formats__stage" data-format-stage>
+                <div class="formats__layer is-active" data-layer="0" data-media-slot>
+                  <!-- MEDIA SLOT · 3D content · 4:3 (16:10 on mobile). Keep ONE element.
+                       An iframe uses data-src and only loads while this format is the active one; a video plays only while active. -->
+                  <img class="media" src="assets/formats/3d.jpg" alt="" data-placeholder>
+                  <!-- <iframe class="media" data-src="/immersive/formats/3d/index.html" title="3D content example" allow="xr-spatial-tracking; fullscreen; accelerometer; gyroscope" allowfullscreen></iframe> -->
+                  <!-- <video class="media" src="assets/formats/3d.mp4" poster="assets/formats/3d.jpg" muted loop playsinline preload="none" data-autoplay aria-label="3D content example"></video> -->
+                </div>
+                <div class="formats__layer" data-layer="1" data-media-slot>
+                  <!-- MEDIA SLOT · 360° scenes and video · 4:3 (16:10 on mobile). Keep ONE element.
+                       An iframe uses data-src and only loads while this format is the active one; a video plays only while active. -->
+                  <img class="media" src="assets/formats/360.jpg" alt="" loading="lazy" data-placeholder>
+                  <!-- <iframe class="media" data-src="/immersive/formats/360/index.html" title="360° scenes and video example" allow="xr-spatial-tracking; fullscreen; accelerometer; gyroscope" allowfullscreen></iframe> -->
+                  <!-- <video class="media" src="assets/formats/360.mp4" poster="assets/formats/360.jpg" muted loop playsinline preload="none" data-autoplay aria-label="360° scenes and video example"></video> -->
+                </div>
+                <div class="formats__layer" data-layer="2" data-media-slot>
+                  <!-- MEDIA SLOT · Extended reality (XR) · 4:3 (16:10 on mobile). Keep ONE element.
+                       An iframe uses data-src and only loads while this format is the active one; a video plays only while active. -->
+                  <img class="media" src="assets/formats/xr.jpg" alt="" loading="lazy" data-placeholder>
+                  <!-- <iframe class="media" data-src="/immersive/formats/xr/index.html" title="Extended reality (XR) example" allow="xr-spatial-tracking; fullscreen; accelerometer; gyroscope" allowfullscreen></iframe> -->
+                  <!-- <video class="media" src="assets/formats/xr.mp4" poster="assets/formats/xr.jpg" muted loop playsinline preload="none" data-autoplay aria-label="Extended reality (XR) example"></video> -->
+                </div>
+                <span class="stage-label" data-stage-label>01 · 3D content</span>
+              </div>
+            </div>
+            <ol class="formats__list">
+              <li class="format is-active" data-format="0">
+                <div class="format__head">
+                  <svg class="format__icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M32 8l20 10v24L32 52 12 42V18z"/><path d="M12 18l20 10 20-10M32 28v24"/><path d="M6 12V6h6M58 12V6h-6M6 52v6h6M58 52v6h-6"/></svg>
+                  <h3 class="format__title">3D content</h3>
+                </div>
+                <p class="body">Every immersive experience starts with 3D assets. We model equipment, environments and characters from scratch, or scan real objects and places with photogrammetry, so learners practise on exactly what they'll use.</p>
+                <ul class="arrow-list">
+                  <li>Modelled and scanned assets</li>
+                  <li>Optimised for headsets and the web</li>
+                  <li>Reusable across courses and updates</li>
+                </ul>
+              </li>
+              <li class="format" data-format="1">
+                <div class="format__head">
+                  <svg class="format__icon" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="22"/><ellipse cx="32" cy="32" rx="22" ry="8"/><ellipse cx="32" cy="32" rx="9" ry="22"/></svg>
+                  <h3 class="format__title">360° scenes and video</h3>
+                </div>
+                <p class="body">Real locations captured with 360° cameras and layered with hotspots, questions and branching paths. Quick to produce, easy to update, and it works on any device.</p>
+                <ul class="arrow-list">
+                  <li>Hotspots, quizzes and branching</li>
+                  <li>Runs on desktop, phone or headset</li>
+                  <li>Ideal for orientation and site familiarisation</li>
+                </ul>
+              </li>
+              <li class="format" data-format="2">
+                <div class="format__head">
+                  <svg class="format__icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M14 20l4-8h28l4 8"/><rect x="6" y="20" width="52" height="26" rx="8"/><circle cx="21" cy="33" r="6"/><circle cx="43" cy="33" r="6"/><path d="M28 46l4-5 4 5"/></svg>
+                  <h3 class="format__title">Extended reality (XR)</h3>
+                </div>
+                <p class="body">Virtual and mixed reality on headsets like Meta Quest and Apple Vision Pro, from fully simulated worlds to 3D content blended into the room around you.</p>
+                <ul class="arrow-list">
+                  <li>Hands-on procedures and high-risk tasks</li>
+                  <li>Seated and standing comfort modes</li>
+                  <li>Headset fleet setup and support</li>
+                </ul>
+              </li>
+            </ol>
+          </div>
+          <div class="formats__mix" data-reveal>
+            <p class="formats__mix-lead">You don't have to just pick one.</p>
+            <p class="body">Mix and match immersive content types for an experience that serves all types of scenarios and simulated learning situations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="section process" id="process" aria-labelledby="process-title">
+      <div class="wrap">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">The process</p>
+          <h2 class="h2" id="process-title">From learning outcome to immersive content</h2>
+          <p class="body">The same four stages behind every eWorks immersive project.</p>
+        </div>
+        <div class="process__grid" data-reveal>
+          <div class="process__stage-col">
+            <!-- MEDIA SLOTS · one image per step · 1200×900 (4:3) -->
+            <div class="process__stage" data-process-stage>
+              <figure class="process__img is-active" data-process-img="0"><img class="media" src="assets/process/discover.jpg" alt="" data-placeholder></figure>
+              <figure class="process__img" data-process-img="1"><img class="media" src="assets/process/design.jpg" alt="" loading="lazy" data-placeholder></figure>
+              <figure class="process__img" data-process-img="2"><img class="media" src="assets/process/develop.jpg" alt="" loading="lazy" data-placeholder></figure>
+              <figure class="process__img" data-process-img="3"><img class="media" src="assets/process/deploy.jpg" alt="" loading="lazy" data-placeholder></figure>
+              <span class="stage-label" data-process-label>1 · Discover</span>
+            </div>
+          </div>
+          <ol class="steps">
+            <li class="step is-active" data-step="0"><div class="step__head"><span class="step__num">1</span><h3 class="step__title">Discover</h3></div><p class="body">During planning workshops, our team maps the content, outcomes, learner needs alongside teaching staff to plan the path forward.</p></li>
+            <li class="step" data-step="1"><div class="step__head"><span class="step__num">2</span><h3 class="step__title">Design</h3></div><p class="body">Our designers take the requirements and produce storyboards, spatial flow diagrams and scripts, reviewed with our subject matter experts.</p></li>
+            <li class="step" data-step="2"><div class="step__head"><span class="step__num">3</span><h3 class="step__title">Develop</h3></div><p class="body">We create the required experience, including images, video, animations, scripts and 3D assets, all using our in-house digital media talent at eWorks.</p></li>
+            <li class="step" data-step="3"><div class="step__head"><span class="step__num">4</span><h3 class="step__title">Deploy</h3></div><p class="body">Published to the LMS for use directly inside the course. Tracking via SCORM/xAPI can be enabled.</p></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- WEBXR: its own light-grey section, after Process ---------- -->
+    <section class="section webxr" id="webxr" aria-labelledby="webxr-title">
+      <div class="wrap webxr__inner">
+        <div class="webxr__text" data-reveal>
+          <p class="eyebrow webxr__eyebrow">No install needed</p>
+          <div class="format__head">
+            <svg class="format__icon webxr__icon" viewBox="0 0 64 64" aria-hidden="true"><rect x="6" y="10" width="52" height="40" rx="4"/><path d="M6 18h52"/><path d="M32 24l10 5v11l-10 5-10-5V29z"/><path d="M22 29l10 5 10-5M32 34v11"/></svg>
+            <h2 class="h2" id="webxr-title">WebXR in the browser</h2>
+          </div>
+          <p class="body">Interactive 3D that runs on a laptop or phone with nothing to install, and steps up to full VR when a headset is connected.</p>
+          <ul class="arrow-list">
+            <li>No app store or install</li>
+            <li>One build for screen and headset</li>
+            <li>Tracked in your LMS with SCORM or xAPI</li>
+          </ul>
+        </div>
+        <div class="webxr__media" data-reveal data-webxr-media>
+          <div class="browser">
+            <div class="browser__bar" aria-hidden="true"><i></i><i></i><i></i><span>eworks.edu.au</span></div>
+            <!-- MEDIA SLOT · WebXR example · 16:10. Keep ONE element.
+                 An iframe uses data-src and loads when the section scrolls into view. -->
+            <div class="browser__view" data-media-slot>
+              <img class="media" src="assets/webxr/preview.jpg" alt="" loading="lazy" data-placeholder>
+              <!-- <iframe class="media" data-src="/immersive/experiences/your-webxr-build/index.html" title="WebXR example" allow="xr-spatial-tracking; fullscreen; accelerometer; gyroscope" allowfullscreen></iframe> -->
+              <!-- <video class="media" src="assets/webxr/demo.mp4" poster="assets/webxr/preview.jpg" muted loop playsinline preload="none" data-autoplay aria-label="WebXR example"></video> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- SPOTLIGHT: one featured case study, same layout as the dialog ---------- -->
+    <section class="section spotlight" id="spotlight" aria-labelledby="spot-title">
+      <div class="wrap">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow spotlight__eyebrow">Spotlight<span data-spot-num></span></p>
+          <h2 class="h2" id="spot-title">Featured case study</h2>
+          <p class="body">One of our highest-impact immersive builds. Try the experience, then step through the design work behind it.</p>
+        </div>
+        <div class="spotlight__card" data-spotlight data-reveal>
+          <div class="cd__body">
+            <div class="cd__media">
+              <div class="cd__stage" data-cd-stage></div>
+              <div class="cd__carousel">
+                <div class="cd__strip-row">
+                  <button class="arrow-btn" type="button" data-cd-prev aria-label="Previous asset"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M16 10H4M9 5l-5 5 5 5"/></svg></button>
+                  <div class="cd__strip" role="group" aria-label="Spotlight case study assets" data-cd-strip></div>
+                  <button class="arrow-btn" type="button" data-cd-next aria-label="Next asset"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h12M11 5l5 5-5 5"/></svg></button>
+                </div>
+                <div class="cd__pager"><div class="dots" data-cd-dots></div><span class="cd__count" data-cd-count aria-live="polite"></span></div>
+              </div>
+            </div>
+            <div class="cd__text">
+              <p class="eyebrow" data-cd-meta></p>
+              <h3 class="cd__title" data-cd-title></h3>
+              <p class="cd__summary" data-cd-summary></p>
+              <span class="tags" aria-label="Experience types" data-cd-types></span>
+              <p class="small cd__client"><b>Client</b> <span data-cd-client></span></p>
+              <div class="cd__block"><h4 class="eyebrow eyebrow--dark">The challenge</h4><p class="small" data-cd-challenge></p></div>
+              <div class="cd__block"><h4 class="eyebrow eyebrow--dark">Our approach</h4><p class="small" data-cd-approach></p></div>
+              <div class="cd__block"><h4 class="eyebrow eyebrow--dark">The result</h4><p class="small" data-cd-outcome></p></div>
+              <p class="cd__note" data-cd-note></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CASE STUDIES ============ -->
+    <section class="section cases" id="case-studies" aria-labelledby="cases-title">
+      <div class="wrap">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">All case studies</p>
+          <h2 class="h2" id="cases-title">Immersive learning in action</h2>
+          <p class="body">Our full case study library. Filter by experience type or industry, then select a project to read the case study, see the design collateral and try the experience.</p>
+        </div>
+
+        <div class="filters-holder" data-filters-holder data-reveal="fade">
+          <div class="filters" data-filters>
+            <div class="filters__inner">
+              <div class="filters__row" role="group" aria-labelledby="filter-type-label">
+                <span class="filters__label" id="filter-type-label">Type</span>
+                <div class="filters__pills" data-filter-group="type"></div>
+              </div>
+              <div class="filters__row" role="group" aria-labelledby="filter-ind-label">
+                <span class="filters__label" id="filter-ind-label">Industry</span>
+                <div class="filters__pills" data-filter-group="industry"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p class="visually-hidden" aria-live="polite" data-results-status></p>
+        <ul class="card-grid" id="case-grid" data-case-grid data-reveal></ul>
+        <p class="body empty-state" data-empty hidden>No case studies match these filters yet.</p>
+
+        <div class="center"><a class="btn btn--outline btn--block" href="#top"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 16V4M5 9l5-5 5 5"/></svg>Back to top</a></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="wrap site-footer__inner">
+      <span class="logo logo--sm"><span class="logo__word">eWorks</span><span class="logo__bar" aria-hidden="true"></span></span>
+      <p class="small">eWorks acknowledge the traditional custodians of the lands on which we are located and pay our respects to Elders past, present and emerging, and their cultural heritage. eWorks recognise their continuing connection to land, waters and culture.</p>
+      <div class="site-footer__base"><span>© 2026 eWorks All rights reserved</span><a href="https://www.eworks.edu.au/">eworks.edu.au <span aria-hidden="true">↗</span></a></div>
+    </div>
+  </footer>
+
+  <!-- ============ CASE STUDY DIALOG ============ -->
+  <dialog class="case-dialog" data-case-dialog aria-labelledby="cd-title">
+    <div class="cd">
+      <div class="cd__top">
+        <span class="logo logo--xs" aria-hidden="true"><span class="logo__word">eWorks</span><span class="logo__bar"></span></span>
+        <span class="cd__rule" aria-hidden="true"></span>
+        <span class="eyebrow cd__crumb" data-cd-crumb></span>
+        <button class="btn btn--dark cd__close" type="button" data-cd-close aria-label="Close case study"><span class="hide-sm" aria-hidden="true">Close</span><svg viewBox="0 0 18 18" aria-hidden="true"><path d="M3 3l12 12M15 3L3 15"/></svg></button>
+      </div>
+      <div class="cd__body">
+        <div class="cd__media">
+          <div class="cd__stage" data-cd-stage></div>
+          <div class="cd__carousel">
+            <div class="cd__strip-row">
+              <button class="arrow-btn" type="button" data-cd-prev aria-label="Previous asset"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M16 10H4M9 5l-5 5 5 5"/></svg></button>
+              <div class="cd__strip" role="group" aria-label="Case study assets" data-cd-strip></div>
+              <button class="arrow-btn" type="button" data-cd-next aria-label="Next asset"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h12M11 5l5 5-5 5"/></svg></button>
+            </div>
+            <div class="cd__pager"><div class="dots" data-cd-dots></div><span class="cd__count" data-cd-count aria-live="polite"></span></div>
+          </div>
+        </div>
+        <div class="cd__text">
+          <p class="eyebrow" data-cd-meta></p>
+          <h2 class="cd__title" id="cd-title" data-cd-title></h2>
+          <p class="cd__summary" data-cd-summary></p>
+          <span class="tags" aria-label="Experience types" data-cd-types></span>
+          <p class="small cd__client"><b>Client</b> <span data-cd-client></span></p>
+          <div class="cd__block"><h3 class="eyebrow eyebrow--dark">The challenge</h3><p class="small" data-cd-challenge></p></div>
+          <div class="cd__block"><h3 class="eyebrow eyebrow--dark">Our approach</h3><p class="small" data-cd-approach></p></div>
+          <div class="cd__block"><h3 class="eyebrow eyebrow--dark">The result</h3><p class="small" data-cd-outcome></p></div>
+          <p class="cd__note" data-cd-note></p>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <noscript><p class="wrap small">Turn on JavaScript to filter the case studies and try the experiences.</p></noscript>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Experience placeholder</title>
+<style>
+  html, body { margin: 0; height: 100%; }
+  body { display: grid; place-items: center; background: #0e2b3c; color: #fff; font: 16px/1.5 "Schibsted Grotesk", "Helvetica Neue", Arial, sans-serif; text-align: center; }
+  .box { max-width: 520px; padding: 24px; }
+  h1 { font-weight: 400; font-size: 28px; margin: 0 0 12px; }
+  code { color: #78deb6; }
+</style>
+</head>
+<body>
+  <div class="box">
+    <h1>Experience goes here</h1>
+    <p>This page stands in for the real WebXR build, 360° tour or video. Set <code>experience.src</code> in <code>data/case-studies.json</code> to the experience's URL on the same domain.</p>
+    <p>Case: <code id="case"></code></p>
+  </div>
+  <script>document.getElementById("case").textContent = new URLSearchParams(location.search).get("case") || "–";</script>
+</body>
+</html>

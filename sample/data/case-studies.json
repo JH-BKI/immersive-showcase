@@ -1,0 +1,456 @@
+{
+  "version": 1,
+  "updated": "2026-10-26",
+  "filters": {
+    "types": [
+      {
+        "id": "vr",
+        "label": "VR"
+      },
+      {
+        "id": "360",
+        "label": "360°"
+      },
+      {
+        "id": "ar",
+        "label": "AR"
+      },
+      {
+        "id": "mr",
+        "label": "MR"
+      },
+      {
+        "id": "web",
+        "label": "Web"
+      },
+      {
+        "id": "app",
+        "label": "App"
+      }
+    ],
+    "industries": [
+      {
+        "id": "education",
+        "label": "Education"
+      },
+      {
+        "id": "healthcare",
+        "label": "Healthcare"
+      },
+      {
+        "id": "government",
+        "label": "Government"
+      },
+      {
+        "id": "sports",
+        "label": "Sports"
+      },
+      {
+        "id": "for-purpose",
+        "label": "For Purpose"
+      }
+    ]
+  },
+  "caseStudies": [
+    {
+      "id": "forklift-pre-start",
+      "order": 1,
+      "published": true,
+      "spotlight": true,
+      "title": "Forklift Pre-start Check",
+      "client": "[TAFE client]",
+      "industry": "education",
+      "types": [
+        "vr",
+        "web"
+      ],
+      "duration": "10 min",
+      "summary": "Apprentices walk around a virtual forklift, find the faults and complete the pre-start checklist before they go near a real machine.",
+      "challenge": "Machine time is limited and first sessions carry real safety risk. Trainers wanted learners arriving at the yard already confident with the checklist.",
+      "approach": "A scanned forklift model with faults that change every attempt, and each checklist step reported to the LMS through xAPI.",
+      "outcome": "[XX]% of learners passed the practical pre-start check on their first attempt.",
+      "card": {
+        "image": "assets/cases/forklift-pre-start/card.jpg",
+        "alt": "[Photo: apprentice in a headset beside a training forklift]"
+      },
+      "experience": {
+        "type": "iframe",
+        "label": "Interactive 3D · WebXR",
+        "src": "experiences/placeholder.html?case=forklift-pre-start",
+        "poster": "assets/cases/forklift-pre-start/poster.jpg",
+        "headsetLabel": "Enter VR",
+        "note": "Runs in the browser with mouse or touch. Connect a Meta Quest and select Enter VR for the full simulation."
+      },
+      "assets": [
+        {
+          "type": "image",
+          "src": "assets/cases/forklift-pre-start/storyboard.jpg",
+          "caption": "Storyboard: the walk-around sequence",
+          "alt": "[Storyboard frames of the walk-around sequence]"
+        },
+        {
+          "type": "image",
+          "src": "assets/cases/forklift-pre-start/scoring.jpg",
+          "caption": "Fault placement and scoring logic",
+          "alt": "[Diagram of fault placement and scoring]"
+        },
+        {
+          "type": "image",
+          "src": "assets/cases/forklift-pre-start/engine.jpg",
+          "caption": "Behind the scenes: forklift scene in the game engine",
+          "alt": "[Screenshot of the forklift scene in the game engine]"
+        }
+      ]
+    },
+    {
+      "id": "ward-orientation-360",
+      "order": 2,
+      "published": true,
+      "spotlight": false,
+      "title": "Ward Orientation 360",
+      "client": "[Health service client]",
+      "industry": "healthcare",
+      "types": [
+        "360",
+        "web"
+      ],
+      "duration": "15 min",
+      "summary": "Graduate nurses explore a medical ward in 360° before their first shift, finding equipment, emergency exits and handover points.",
+      "challenge": "Physical orientation tours pulled senior nurses off the floor during busy intake periods.",
+      "approach": "A 360° capture of a working ward, with hotspots linking to short clips from nurse educators and a check question at each zone.",
+      "outcome": "[Hours of supervised orientation saved per intake].",
+      "card": {
+        "image": "assets/cases/ward-orientation-360/card.jpg",
+        "alt": "[Photo: graduate nurse viewing a 360° ward tour on a tablet]"
+      },
+      "experience": {
+        "type": "iframe",
+        "label": "360° scene · hotspots",
+        "src": "experiences/placeholder.html?case=ward-orientation-360",
+        "poster": "assets/cases/ward-orientation-360/poster.jpg",
+        "headsetLabel": "View in headset",
+        "note": "Drag to look around, or select a hotspot. Works on desktop, phone and headset."
+      },
+      "assets": [
+        {
+          "type": "image",
+          "src": "assets/cases/ward-orientation-360/hotspots.jpg",
+          "caption": "Hotspot map across ward zones",
+          "alt": "[Map of hotspots across the ward]"
+        },
+        {
+          "type": "image",
+          "src": "assets/cases/ward-orientation-360/capture.jpg",
+          "caption": "Behind the scenes: 360° camera capture on the ward",
+          "alt": "[Photo of the 360° camera on the ward]"
+        },
+        {
+          "type": "image",
+          "src": "assets/cases/ward-orientation-360/script.jpg",
+          "caption": "Script for nurse educator clips",
+          "alt": "[Script pages for nurse educator clips]"
+        }
+      ]
+    },
+    {
+      "id": "site-hazard-spotter",
+      "order": 3,
+      "published": true,
+      "spotlight": false,
+      "title": "Site Hazard Spotter",
+      "client": "[State agency client]",
+      "industry": "government",
+      "types": [
+        "web"
+      ],
+      "duration": "8 min",
+      "summary": "Learners scan a construction site for hazards against the clock, then replay the scene to see what they missed.",
+      "challenge": "Static WHS slides were not changing how inspectors noticed hazards on real sites.",
+      "approach": "A modular 3D site where hazards can be swapped per industry, with a replay that highlights missed items and explains each one.",
+      "outcome": "[XX] learners completed the module in its first quarter, with [XX]% average hazard detection.",
+      "card": {
+        "image": "assets/cases/site-hazard-spotter/card.jpg",
+        "alt": "[Photo: learner at a laptop identifying hazards on a 3D building site]"
+      },
+      "experience": {
+        "type": "iframe",
+        "label": "Interactive 3D · WebXR",
+        "src": "experiences/placeholder.html?case=site-hazard-spotter",
+        "poster": "assets/cases/site-hazard-spotter/poster.jpg",
+        "headsetLabel": "Enter VR",
+        "note": "Plays in any modern browser. No install needed."
+      },
+      "assets": [
+        {
+          "type": "image",
+          "src": "assets/cases/site-hazard-spotter/matrix.jpg",
+          "caption": "Hazard matrix and scoring rules",
+          "alt": "[Hazard matrix and scoring rules]"
+        },
+        {
+          "type": "image",
+          "src": "assets/cases/site-hazard-spotter/layout.jpg",
+          "caption": "Level layout sketches",
+          "alt": "[Sketches of the site layout]"
+        },
+        {
+          "type": "image",
+          "src": "assets/cases/site-hazard-spotter/lighting.jpg",
+          "caption": "Behind the scenes: lighting pass on the site model",
+          "alt": "[Screenshot of the lighting pass]"
+        }
+      ]
+    },
+    {
+      "id": "engine-bay-explorer",
+      "order": 4,
+      "published": true,
+      "spotlight": false,
+      "title": "Engine Bay Explorer",
+      "client": "[Automotive training client]",
+      "industry": "education",
+      "types": [
+        "ar",
+        "mr",
+        "app"
+      ],
+      "duration": "12 min",
+      "summary": "Students point a tablet at a training engine to label components and step through a timing belt change.",
+      "challenge": "Workshop engines are shared between many students, and manuals are hard to follow with greasy hands.",
+      "approach": "An AR app that recognises the engine and overlays labels and animated steps, with a quiz mode for revision.",
+      "outcome": "[Qualitative feedback from teachers and students].",
+      "card": {
+        "image": "assets/cases/engine-bay-explorer/card.jpg",
+        "alt": "[Photo: student pointing a tablet at a training engine with AR labels]"
+      },
+      "experience": {
+        "type": "iframe",
+        "label": "Video walkthrough",
+        "src": "experiences/placeholder.html?case=engine-bay-explorer",
+        "poster": "assets/cases/engine-bay-explorer/poster.jpg",
+        "headsetLabel": "Get the app",
+        "note": "AR runs on a tablet, so this page shows a recorded walkthrough of the app in use."
+      },
+      "assets": [
+        {
+          "type": "image",
+          "src": "assets/cases/engine-bay-explorer/model.jpg",
+          "caption": "Engine component model",
+          "alt": "[Screenshot of the engine component model]"
+        },
+        {
+          "type": "image",
+          "src": "assets/cases/engine-bay-explorer/wireframes.jpg",
+          "caption": "AR interface wireframes",
+          "alt": "[AR interface wireframes]"
+        },
+        {
+          "type": "image",
+          "src": "assets/cases/engine-bay-explorer/testing.jpg",
+          "caption": "Behind the scenes: testing in the workshop",
+          "alt": "[Photo of testing in the workshop]"
+        }
+      ]
+    },
+    {
+      "id": "difficult-conversations",
+      "order": 5,
+      "published": true,
+      "spotlight": false,
+      "title": "Difficult Conversations",
+      "client": "[Not-for-profit client]",
+      "industry": "for-purpose",
+      "types": [
+        "vr",
+        "app"
+      ],
+      "duration": "20 min",
+      "summary": "Volunteers practise responding to a distressed caller, with a virtual character who reacts to each choice they make.",
+      "challenge": "Role-plays depended on trainer availability, and volunteers felt unprepared for their first real call.",
+      "approach": "A branching script written with experienced volunteers, voiced by actors, with feedback after each conversation path.",
+      "outcome": "[Change in self-reported confidence before and after].",
+      "card": {
+        "image": "assets/cases/difficult-conversations/card.jpg",
+        "alt": "[Photo: volunteer in a headset practising a conversation]"
+      },
+      "experience": {
+        "type": "iframe",
+        "label": "Interactive 3D · branching",
+        "src": "experiences/placeholder.html?case=difficult-conversations",
+        "poster": "assets/cases/difficult-conversations/poster.jpg",
+        "headsetLabel": "Enter VR",
+        "note": "Choose responses with mouse, touch or VR controllers. Includes content notes before starting."
+      },
+      "assets": [
+        {
+          "type": "image",
+          "src": "assets/cases/difficult-conversations/branching.jpg",
+          "caption": "Branching conversation map",
+          "alt": "[Branching conversation map]"
+        },
+        {
+          "type": "image",
+          "src": "assets/cases/difficult-conversations/expressions.jpg",
+          "caption": "Character expression sheet",
+          "alt": "[Character expression sheet]"
+        },
+        {
+          "type": "image",
+          "src": "assets/cases/difficult-conversations/recording.jpg",
+          "caption": "Behind the scenes: voice recording session",
+          "alt": "[Photo of the voice recording session]"
+        }
+      ]
+    },
+    {
+      "id": "umpire-decision-trainer",
+      "order": 6,
+      "published": true,
+      "spotlight": false,
+      "title": "Umpire Decision Trainer",
+      "client": "[Sporting body client]",
+      "industry": "sports",
+      "types": [
+        "360",
+        "vr"
+      ],
+      "duration": "10 min",
+      "summary": "Community umpires watch match moments from an on-field position and make the call before the clock runs out.",
+      "challenge": "New umpires get few chances to practise split-second calls before officiating real games.",
+      "approach": "360° footage filmed from umpire positions, paused at key moments for a timed decision, then replayed with an expert's explanation.",
+      "outcome": "[XX]% decision accuracy after three sessions.",
+      "card": {
+        "image": "assets/cases/umpire-decision-trainer/card.jpg",
+        "alt": "[Photo: community umpire watching 360° match footage]"
+      },
+      "experience": {
+        "type": "iframe",
+        "label": "360° video · timed decisions",
+        "src": "experiences/placeholder.html?case=umpire-decision-trainer",
+        "poster": "assets/cases/umpire-decision-trainer/poster.jpg",
+        "headsetLabel": "View in headset",
+        "note": "Drag to look around the field. Best in a headset or on a phone."
+      },
+      "assets": [
+        {
+          "type": "image",
+          "src": "assets/cases/umpire-decision-trainer/rig.jpg",
+          "caption": "Camera rig positions on the field",
+          "alt": "[Diagram of camera rig positions]"
+        },
+        {
+          "type": "image",
+          "src": "assets/cases/umpire-decision-trainer/shots.jpg",
+          "caption": "Decision moment shot list",
+          "alt": "[Shot list of decision moments]"
+        },
+        {
+          "type": "image",
+          "src": "assets/cases/umpire-decision-trainer/edit.jpg",
+          "caption": "Behind the scenes: 360° edit timeline",
+          "alt": "[Screenshot of the 360° edit timeline]"
+        }
+      ]
+    },
+    {
+      "id": "solar-panel-installer",
+      "order": 7,
+      "published": true,
+      "spotlight": false,
+      "title": "Solar Panel Installer",
+      "client": "[TAFE client]",
+      "industry": "education",
+      "types": [
+        "mr",
+        "app"
+      ],
+      "duration": "18 min",
+      "summary": "Electrical students place virtual panels and wiring on a real roof mock-up, with the headset checking spacing and cable runs.",
+      "challenge": "Real panels and inverters are costly, and mistakes on live equipment are dangerous.",
+      "approach": "A mixed reality app that anchors virtual panels to the classroom roof rig and checks each step against the standard.",
+      "outcome": "[Equipment cost saved per cohort].",
+      "card": {
+        "image": "assets/cases/solar-panel-installer/card.jpg",
+        "alt": "[Photo: student placing virtual solar panels on a real roof model]"
+      },
+      "experience": {
+        "type": "iframe",
+        "label": "Mixed reality · recorded walkthrough",
+        "src": "experiences/placeholder.html?case=solar-panel-installer",
+        "poster": "assets/cases/solar-panel-installer/poster.jpg",
+        "headsetLabel": "Get the app",
+        "note": "Mixed reality runs on a headset, so this page shows a recorded walkthrough."
+      },
+      "assets": [
+        {
+          "type": "image",
+          "src": "assets/cases/solar-panel-installer/models.jpg",
+          "caption": "Panel and inverter models",
+          "alt": "[Screenshot of panel and inverter models]"
+        },
+        {
+          "type": "image",
+          "src": "assets/cases/solar-panel-installer/checks.jpg",
+          "caption": "Installation step checks",
+          "alt": "[Diagram of installation step checks]"
+        },
+        {
+          "type": "image",
+          "src": "assets/cases/solar-panel-installer/rig.jpg",
+          "caption": "Behind the scenes: testing on the roof rig",
+          "alt": "[Photo of testing on the roof rig]"
+        }
+      ]
+    },
+    {
+      "id": "museum-object-handling",
+      "order": 8,
+      "published": true,
+      "spotlight": false,
+      "title": "Museum Object Handling",
+      "client": "[Museum client]",
+      "industry": "for-purpose",
+      "types": [
+        "ar",
+        "web"
+      ],
+      "duration": "6 min",
+      "summary": "Volunteers learn to handle fragile artefacts by turning scanned 3D objects in their hands through a phone, with handling tips at each touch point.",
+      "challenge": "Volunteers could not practise on real collection items before working with them.",
+      "approach": "Photogrammetry scans of collection objects shown in WebAR, with hotspots on safe and unsafe grip points.",
+      "outcome": "[Handling incidents before and after].",
+      "card": {
+        "image": "assets/cases/museum-object-handling/card.jpg",
+        "alt": "[Photo: volunteer turning a 3D artefact on a phone]"
+      },
+      "experience": {
+        "type": "iframe",
+        "label": "WebAR · interactive 3D",
+        "src": "experiences/placeholder.html?case=museum-object-handling",
+        "poster": "assets/cases/museum-object-handling/poster.jpg",
+        "headsetLabel": "View in AR",
+        "note": "Opens in the phone browser. No app needed."
+      },
+      "assets": [
+        {
+          "type": "image",
+          "src": "assets/cases/museum-object-handling/capture.jpg",
+          "caption": "Behind the scenes: photogrammetry capture",
+          "alt": "[Photo of the photogrammetry capture]"
+        },
+        {
+          "type": "image",
+          "src": "assets/cases/museum-object-handling/tips.jpg",
+          "caption": "Handling tip cards",
+          "alt": "[Handling tip cards]"
+        },
+        {
+          "type": "image",
+          "src": "assets/cases/museum-object-handling/scan.jpg",
+          "caption": "Cleaning up the 3D scan",
+          "alt": "[Screenshot of the 3D scan clean-up]"
+        }
+      ]
+    }
+  ]
+}
